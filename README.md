@@ -1,1 +1,2 @@
-### 用来展示一些自己的学习项目-->[预览](https://cangsayi.github.io/imitate-project)
+一些模仿的网页、网站。
+[预览地址](https://cangsayi.github.io/imitate-project)
