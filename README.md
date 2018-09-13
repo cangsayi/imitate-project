@@ -5,6 +5,6 @@
 4）把stylus的样式翻译成了css样式。</br>
 5）学习到了弹性布局，sticky footer技术,1px边框，图标字体的自定义化。通过一些业务逻辑代码的练习，对vue有了进一步的认识。
 #### 2.《vue.js实战》电商页面的学习。　[-->demo](https://cangsayi.github.io/shopping.html)　[-->源码](https://github.com/cangsayi/imitate-project/tree/master/vue2.x-shopping)
-1）运用到了动态路由，状态管理等技术，
+运用到了动态路由，状态管理等技术，
 #### 3.高仿某个光伏类的网站。　　　　[-->demo](https://cangsayi.github.io/imitate-project)
 CSS方面主要用到了定位，浮动，一些动画效果；动态效果方面主要用到jQuery的animate和scroll方法。
