@@ -1,0 +1,248 @@
+html,body {
+    line-height: 1;
+    font-weight: 200;
+    font-family: 'PingFang SC','STHeitiSC-Light','Helvetica-Light',arial, Helvetica, arial,sans-serif;
+
+}
+.clearfix {
+    
+    display: inline-block;
+
+}
+.clearfix::after　{
+    display: block;
+    content: ".";
+    height:0;
+    width:0;
+    line-height: 0;
+    clear:both;
+    visibility: hidden;
+}
+
+@media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5){
+
+    .border-1px::after{
+        -webkit-transform: scaleY(0.7);
+        transform: scaleY(0.7);
+        position: absolute;
+        display: block;
+        content: '';
+        left:0;
+        bottom:0;
+        width:100%;
+        border-top:1px solid rgba(7,17,27,0.1);
+    }
+}
+
+
+@media (-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2){
+
+    
+    .border-1px::after{
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+        position: absolute;
+        display: block;
+        content: '';
+        left:0;
+        bottom:0;
+        width:100%;
+        border-top:1px solid rgba(7,17,27,0.1);
+    }
+    .content .brand{
+        background-image: url(./components/header/brand@2x.png);
+    }
+    .support .decrease{
+        background-image: url(./components/header/decrease_1@2x.png);
+    }
+    .support .discount {
+        background-image: url(./components/header/discount_1@2x.png);
+    }
+    .support .guarantee {
+        background-image: url(./components/header/guarantee_1@2x.png);
+    }
+    .support .invoice {
+        background-image: url(./components/header/invoice_1@2x.png);
+    }
+    .support .special {
+        background-image: url(./components/header/special_1@2x.png);
+    }
+    .support-item .decrease {
+        background-image: url(./components/header/decrease_2@2x.png);
+    }
+    .support-item .discount {
+        background-image: url(./components/header/discount_2@2x.png);
+    }
+    .support-item .guarantee {
+        background-image: url(./components/header/guarantee_2@2x.png);
+    }
+    .support-item .invoice  {
+        background-image: url(./components/header/invoice_2@2x.png);
+    }
+    .support-item .special  {
+        background-image: url(./components/header/special_2@2x.png);
+    }
+    .bulletin-title.bulletin {
+        background-image: url(./components/header/bulletin@2x.png);
+    }
+    .star-48 .on {
+        background-image: url(./components/star/star48_on@2x.png);
+    }
+    .star-48 .off {
+        background-image: url(./components/star/star48_off@2x.png);
+    }
+    .star-48 .half {
+        background-image: url(./components/star/star48_half@2x.png);
+    }
+    .star-36 .on {
+        background-image: url(./components/star/star36_on@2x.png);
+    }
+    .star-36 .off {
+        background-image: url(./components/star/star36_off@2x.png);
+    }
+    .star-36 .half {
+        background-image: url(./components/star/star36_half@2x.png);
+    }
+    .star-24 .on {
+        background-image: url(./components/star/star24_on@2x.png);
+    }
+    .star-24 .off {
+        background-image: url(./components/star/star24_off@2x.png);
+    }
+    .star-24 .half {
+        background-image: url(./components/star/star24_half@2x.png);
+    }
+    .menu-item .decrease {
+        background-image: url(./views/goods/decrease_3@2x.png);
+    }
+    .menu-item .discount{
+        background-image: url(./views/goods/discount_3@2x.png);
+    }
+    .menu-item .guarantee {
+        background-image: url(./views/goods/guarantee_3@2x.png);
+    }
+    .menu-item .invoice{
+        background-image: url(./views/goods/invoice_3@2x.png);
+    }
+    .menu-item .special{
+        background-image: url(./views/goods/special_3@2x.png);
+    }
+    .support-items .decrease{
+        background-image: url(./views/seller/decrease_4@2x.png);
+    }
+    .support-items .discount{
+        background-image: url(./views/seller/discount_4@2x.png);
+    }
+    .support-items .guarantee{
+        background-image: url(./views/seller/guarantee_4@2x.png);
+    }
+    .support-items .invoice {
+        background-image: url(./views/seller/invoice_4@2x.png);
+    }
+    .support-items .special  {
+        background-image: url(./views/seller/special_4@2x.png);
+    }
+    
+
+}
+
+
+
+@media (-webkit-min-device-pixel-ratio:3),(min-device-pixel-ratio:3){
+ .content .brand {
+     background-image: url(./components/header/brand@3x.png);
+ }
+ .support .decrease {
+     background-image: url(./components/header/decrease_1@3x.png);
+ }
+ .support .discount {
+    background-image: url(./components/header/discount_1@3x.png);
+}
+.support .guarantee {
+    background-image: url(./components/header/guarantee_1@3x.png);
+}
+.support .invoice {
+    background-image: url(./components/header/invoice_1@3x.png);
+}
+.support .special {
+    background-image: url(./components/header/special_1@3x.png);
+}
+
+.support-item .decrease {
+    background-image: url(./components/header/decrease_2@3x.png);
+}
+.support-item .discount {
+    background-image: url(./components/header/discount_2@3x.png);
+}
+.support-item .guarantee {
+    background-image: url(./components/header/guarantee_2@3x.png);
+}
+.support-item .invoice  {
+    background-image: url(./components/header/invoice_2@3x.png);
+}
+.support-item .special  {
+    background-image: url(./components/header/special_2@3x.png);
+}
+.bulletin-title.bulletin {
+    background-image: url(./components/header/bulletin@3x.png);
+}
+
+.star-48 .on {
+    background-image: url(./components/star/star48_on@3x.png);
+}
+.star-48 .off {
+    background-image: url(./components/star/star48_off@3x.png);
+}
+.star-48 .half {
+    background-image: url(./components/star/star48_half@3x.png);
+}
+.star-36 .on {
+    background-image: url(./components/star/star36_on@3x.png);
+}
+.star-36 .off {
+    background-image: url(./components/star/star36_off@3x.png);
+}
+.star-36 .half {
+    background-image: url(./components/star/star36_half@3x.png);
+}
+.star-24 .on {
+    background-image: url(./components/star/star24_on@3x.png);
+}
+.star-24 .off {
+    background-image: url(./components/star/star24_off@3x.png);
+}
+.star-24 .half {
+    background-image: url(./components/star/star24_half@3x.png);
+}
+.menu-item .decrease {
+    background-image: url(./views/goods/decrease_3@3x.png);
+}
+.menu-item .discount{
+    background-image: url(./views/goods/discount_3@3x.png);
+}
+.menu-item .guarantee {
+    background-image: url(./views/goods/guarantee_3@3x.png);
+}
+.menu-item .invoice{
+    background-image: url(./views/goods/invoice_3@3x.png);
+}
+.menu-item .special{
+    background-image: url(./views/goods/special_3@3x.png);
+}
+.support-items .decrease{
+    background-image: url(./views/seller/decrease_4@3x.png);
+}
+.support-items .discount{
+    background-image: url(./views/seller/discount_4@3x.png);
+}
+.support-items .guarantee{
+    background-image: url(./views/seller/guarantee_4@3x.png);
+}
+.support-items .invoice {
+    background-image: url(./views/seller/invoice_4@3x.png);
+}
+.support-items .special  {
+    background-image: url(./views/seller/special_4@3x.png);
+}
+
+}
