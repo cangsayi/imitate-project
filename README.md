@@ -6,4 +6,4 @@
 运用到了动态路由，状态管理等技术。
 ### 3.高仿某个光伏类的网站。　　　　[-->demo](https://cangsayi.github.io/imitate-project/jquery-pv/)
 CSS方面主要用到了定位，浮动，一些动画效果；动态效果方面主要用到jQuery的animate和scroll方法。
-### 4.JS组件--自定义轮播图jquery实现:		[-->demo](https://cangsayi.github.io/imitate-project/js-components/)
+### 4.JS组件--自定义轮播图jquery实现:		[-->demo](https://cangsayi.github.io/imitate-project/js-components/lunbotu/)
