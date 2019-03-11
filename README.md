@@ -7,3 +7,4 @@
 ### 3.高仿某个光伏类的网站。　　　　[-->demo](https://cangsayi.github.io/imitate-project/jquery-pv/)
 CSS方面主要用到了定位，浮动，一些动画效果；动态效果方面主要用到jQuery的animate和scroll方法。
 ### 4.JS组件--自定义轮播图jquery实现:		[-->demo](https://cangsayi.github.io/imitate-project/js-components/lunbotu/)
+### 5.高仿某个html5的主页,运用了流式布局，适应于手机页面，兼容IE8浏览器[-->demo](https://cangsayi.github.io/imitate-project/first-static)
