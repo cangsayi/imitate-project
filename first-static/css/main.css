@@ -1,0 +1,759 @@
+body {
+	color:white;
+	margin:0 auto;
+	text-align: center;
+	font-family: 'Raleway','Times New Roman', Times, sans-serif  !important;
+}
+#section-home {
+	position: relative;
+	background: #f2f2f2 url(../images/bg_3.jpg) no-repeat center center;
+	background-size: cover;
+	width:100%;
+	height:700px;
+	overflow: hidden;
+}
+#section-contact::after,
+#section-about .fun-facts::after,
+#section-home::after,
+#section-features::after,
+#section-services::after,
+#section-pricing::after,
+#section-about  div.addafter::after,
+#section-pricing  div.addafter::after,
+#section-pricing .more-features::after,
+
+#section-contact:after,
+#section-about .fun-facts:after,
+#section-home:after,
+#section-features:after,
+#section-services:after,
+#section-pricing:after,
+#section-about  div.addafter:after,
+#section-pricing  div.addafter:after,
+#section-pricing .more-features:after
+{
+								
+	content:'.';
+	position: absolute;
+	width:120%;
+	left:-10%;
+	bottom:-100px;
+	transform: rotate(-5deg);
+	height:200px;
+	background:#f2f2f2;
+}
+#section-contact::after {
+	background:rgba(0, 0, 0, 0.8);
+	height:150px;
+	bottom:-60px;
+}
+#section-about .fun-facts::after {
+	background:white;
+}
+
+#section-pricing  div.addafter::after{
+	background:white;
+}
+/* start of nav */
+#section-home nav {
+	margin:10px auto;
+	position: absolute;
+	width:100%;
+	height:88px;
+	line-height: 88px;
+}
+#section-home nav.fixed {
+	z-index: 2;
+	position: fixed;
+	top:-100%;
+	left:0;
+	background:white;
+	color:black;
+	height:66px;
+	line-height: 66px;
+	
+	
+}
+#section-home nav.awake {
+	top:0;
+	margin-top:0;
+	transition: 0.5s all ease-in-out;
+}
+#section-home nav.fixed li{
+	color:black;
+}
+#section-home nav .logo {
+	text-transform: uppercase;
+	font-size:1.25em;
+	position: absolute;
+	left:120px;
+	top:0;
+	letter-spacing: 0.1em;
+
+}
+#section-home nav ul{
+	position: absolute;
+	top:0;
+	right:125px;
+	display:inline-block;
+}
+#section-home nav li {
+	float:left;
+	margin-right:40px;
+	color:rgba(255, 255, 255, 0.5);
+}
+#section-home nav li.active {
+	color:white;
+}
+#section-home nav.fixed li.active {
+	color:blue;
+}
+#section-home nav li:hover {
+	color:white;
+	transition: 0.3s all ease;
+}
+#section-home nav.fixed li:hover {
+	color:blue;
+	transition: 0.3s all ease;
+}
+#section-home nav li a {
+	display: block;
+}
+/*   end of nav   */
+
+#section-home h1 {
+	margin:260px auto 0;
+	color:white;
+	font-size: 2.85em;
+}
+/* start of section-features */
+#section-features{
+	position: relative;
+	width:100%;
+	height:1230px;
+	background: #f2f2f2;
+	overflow: hidden;
+	color:black;
+	margin: 0 0 20px;
+	padding:120px 0;
+}
+#section-features h2,
+#section-services h2,
+#section-pricing h2 ,
+#section-about h2{
+	font-size:2em;
+	color:black;
+}
+#section-features h3,
+#section-services h3,
+#section-pricing h3,
+#section-about h3 {
+	margin:10px auto;
+	width:640px;
+	height:80px;
+	font-size: 1.3em;
+	line-height: 30px;
+	color:#859196;
+}
+footer .features,
+#section-about .features,
+#section-features .features,
+#section-services .features,
+#section-pricing .features
+
+ {
+	width:80%;
+	margin:30px auto;
+	overflow: hidden;
+}
+#section-about .features {
+	margin-top:100px;
+}
+#section-pricing #container {
+	width:1080px;
+	margin:30px auto;
+	overflow: hidden;
+}
+#section-pricing .features  {
+	margin-bottom: 340px;
+	
+}
+footer .features .main .inner,
+#section-about .features .inner,
+#section-features .features .inner,
+ #section-services .features .inner,
+ #section-pricing .features .inner,
+ #section-pricing #container  .view .inner,
+ #section-pricing .faq .features .inner{
+	width:33.333%;
+	height:410px;
+	margin:15px 0;
+	float:left;
+   overflow: hidden;
+ 
+}
+footer .features .main .inner{
+	height:100%;
+	margin:0;
+}
+footer .features .main .left,footer .features .main .right {
+	height:100%;
+	width:60%;
+	float:left;
+	overflow: hidden;
+}
+footer .features .main .right{
+	width:40%;
+	position: relative;
+}
+#section-about .features .inner{
+	width:50%;
+	margin:15px 0;
+	height:370px;
+}
+#section-about .fun-facts  .features .inner{
+	width:33.333%;
+	height:100%;
+}
+#section-pricing .faq .features .inner {
+	width:50%;
+	margin:40px 0;
+}
+#section-pricing #container  .view .inner{
+	width:360px;
+}
+#section-pricing .features  .inner{
+	width:25%;
+	height:576px;
+	margin:0;
+
+}
+#section-pricing .faq .features .inner{
+	height:240px;
+}
+#section-pricing #container .view  .inner {
+	height:100%;
+	width:14.285%;
+	margin:0;
+	display: inline-block;
+}
+footer .features .left  .content,
+#section-about .features .content,
+#section-features .features .content,
+ #section-services .features .content,
+ #section-pricing .features .content,
+ #section-pricing #container .view .content
+  {
+	position: relative;
+	margin:0 15px;
+	height:100%;
+	background:white;
+	behavior: url(../js/pie.htc);			/*IE8支持*/
+	border-radius: 10px;
+	
+	
+}
+footer .features .left  .content{
+	background:inherit;
+}
+#section-about .fun-facts .features .content{
+	background: #f2f2f2;
+}
+#section-about .features .content {
+
+	margin:0 30px;
+}
+#section-about .features .content img {
+	height:100%;
+	padding: 0;
+}
+#section-about .features .content.img {
+	margin:0;
+	border-radius:0;
+}
+#section-pricing .faq .features .content {
+	
+	text-align: left;
+	background:#f2f2f2;
+}
+#section-pricing #container .view .content{
+	text-align: left;
+	
+	
+}
+
+#section-pricing .features .content {
+	margin: 0 7px;
+	position: relative;
+	float: left;
+	
+}
+
+#section-features .features .content span ,
+#section-pricing #container .view .content span{
+	margin:40px auto 30px;
+	font-size: 4em;
+	display:block;
+	float:left;
+	width:100%;
+
+}
+#section-pricing #container .view .content span{
+	margin:60px auto 0;
+	color:#4586FF;
+}
+#section-features .features .content h2 ,
+#section-pricing #container .view .content h2{
+	font-size:1.3em;
+	color:#333;
+	display: inline-block;
+}
+#section-pricing #container .view .content h2{
+	margin:15px auto 10px 0;
+}
+#section-features .features .content p,
+#section-pricing #container .view .content p {
+	color:#9BA5A9;
+	width: 95%; 
+	margin:0.3em auto;
+	line-height: 30px;
+}
+#section-pricing #container .view .content p {
+	margin:0 auto 0 0;
+	line-height: 26px;
+}
+#section-features .features .content button,#section-pricing .features .content button {
+	display: block;
+	margin:15px auto 10px;
+	border-radius: 5px;
+	padding:10px 20px;
+	background:#4586FE;
+	opacity: 0.8;
+	color:white;
+	border:none;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+#section-pricing .features .content button {
+	background:#868E96;
+	font-size: 0.8em;
+
+
+}
+#section-pricing .features .content.active button{
+	background:#4586FE;
+}
+#section-features .features .content button:hover,
+#section-pricing .features .content button:hover {
+	opacity: 1;
+	cursor: pointer;
+	transition: 0.3s all ease;
+}
+#section-features::after,
+#section-pricing::after {
+	background:white;
+	
+}
+/*  start of section-services */
+
+#section-services {
+	position: relative;
+	width:100%;
+	height:1000px;
+	background:white;
+	color:black;
+	overflow: hidden;
+	padding:100px 0;
+
+}
+#section-services .inner h2 {
+	font-size: 1.4em;
+	text-align: left;
+	margin:30px auto 10px 15px;
+	color:black;
+}
+#section-services .features .inner p {
+	color:#859196;
+	font-size: 1em;
+	text-align: left;
+	margin-left:10px;
+	line-height: 30px;
+}
+#section-services .features .inner {
+	height:580px;
+}
+#section-services .features .inner ul{
+	margin:20px auto;
+	color:#859196;
+	text-align: left;
+	font-size: 0.95em;
+	line-height:35px;
+	display: inline-block;
+	overflow: hidden;
+}
+#section-services .features .inner ul li .icon-zhengque {
+	color:blue;
+	margin-left:10px;
+	margin-right:20px;
+	float:left;
+	margin-top:5px;
+
+}
+#section-services .features .inner ul li span + span{
+	display: block;
+	float:left;
+	width:85%;
+}
+
+/* start of #section-pricing  */
+#section-pricing {
+	position: relative;
+	width:100%;
+	height:3250px;
+	background:#f2f2f2;
+	overflow: hidden;
+	padding:110px 0;
+	color:black;
+}
+#section-pricing .features .content h2 {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	margin:40px auto;
+	height:40px;
+	color:#585858;
+	line-height: 40px;
+}
+#section-pricing .features .content sup {
+	vertical-align:1.6em;
+	font-size: 1.2em;
+	color:#A9B1B5;
+}
+#section-pricing .features .content div {
+	margin-bottom: 40px;
+}
+#section-pricing .features .content div.popular {
+position: absolute;
+color:white;
+margin:0;
+top:30px;
+right:0;
+width:95px;
+height:30px;
+line-height: 30px;
+text-transform: uppercase;
+background:#4586FE;
+transform: rotate(90deg);
+}
+#section-pricing .features .content strong {
+	font-size: 4em;
+	
+}
+#section-pricing .features .content.active strong {
+	color:#4586FE;
+}
+#section-pricing .features .content span {
+	color:#A9B1B5;
+	font-size: 1.2em;
+}
+#section-pricing .features .content p {
+	width:80%;
+	margin:10px auto;
+	color:#859196;
+	font-size: 1.1em;
+	line-height: 30px;
+}
+
+#section-pricing  div.addafter,#section-about div.addafter{
+	position: relative;
+	width:100%;
+	height:1px;
+	margin-bottom: 30px;
+	
+}
+#section-pricing #container {
+
+	margin-top:2px;
+	height:450px;
+}
+#section-pricing .more-features {
+	width:100%;
+	height:900px;
+	background:white;
+	padding-top:80px;
+	overflow: hidden;
+	position: relative;
+}
+#section-pricing #container  .view {
+	width:100%;
+	height:300px;
+	overflow: hidden;
+	position: relative;
+}
+#section-pricing #container  .view .all-content {
+	width:2520px;
+	height:100%;
+	overflow-x:auto;
+	overflow-y: hidden;
+	top:0;
+	left:0;
+	position: absolute;	
+}
+#section-pricing #container .control  {
+	width:50px;
+	height:50px;
+	background:white;
+	margin:100px auto  auto;
+	overflow: hidden;
+	display: inline-block;
+}
+#section-pricing #container .control span {
+	width:12px;
+	height:12px;
+	display:block;
+	text-align: center;
+	margin:19px auto;
+	border-radius: 6px;
+	background:#ccc;
+}
+#section-pricing #container .control span:hover{
+	background:#4586FF;
+	cursor: pointer;
+}
+
+#section-pricing .faq {
+	width:100%;
+	height:800px;
+
+	margin:30px auto;
+	padding-top:80px;
+}
+#section-pricing .faq .features  .content h3 {
+	margin-bottom: 20px;
+	width:100%;
+	height:auto;
+	color:black;
+	
+}
+#section-pricing .faq .features  .content p {
+text-align: left;
+margin:0 auto 20px  0;
+color:#859196;
+font-size: 1em;
+width:100%;
+}
+#section-pricing .faq .features  .content a {
+color:#4586FF;
+}
+/* end of section-pricing  */
+
+#section-about {
+	height:2300px;
+	width:100%;
+	overflow: hidden;
+	position: relative;
+	padding-top:130px;
+	
+}
+#section-about .features {
+	margin-bottom: 350px;
+}
+#section-about .features .content h3 {
+	text-align: left;
+	width:100%;
+	height:auto;
+	color:black;
+	line-height: 1.3em;
+	font-size: 1.8em;
+	margin-top: 40px;
+}
+#section-about .features .content p {
+	width:100%;
+	height:auto;
+	color:#859196;
+	line-height: 1.6em;
+	text-align: left;
+	margin-bottom: 25px;
+	font-size: 1.1em;
+}
+#section-about .features .content a {
+color:#4586FF;
+text-align: left;
+display: block;
+font-size: 1.1em;
+}
+#section-about .fun-facts {
+	padding-top:120px;
+	width:100%;
+	height:700px;
+	background:#f2f2f2;
+	text-align: center;
+	position: relative;
+}
+#section-about .fun-facts .features .content h1 {
+	font-size: 4.2em;
+	color:#4586FF;
+	font-weight: bold;
+	margin-bottom: 30px;
+	
+}
+#section-about .fun-facts .features .content p {
+	text-align:center;
+	font-size: 0.8em;
+	color:#b3b3b3;
+}
+/* end of section-about   */
+
+/* start of section-contact   */
+#section-contact {
+	position: relative;
+	width:100%;
+	height:900px;
+	color:black;
+	background:white;
+	padding-top:90px;
+	overflow: hidden;
+}
+#section-contact form {
+	height:550px;
+	width:500px;
+	margin-left:120px;
+	overflow: hidden;
+	text-align: left;
+}
+#section-contact form label{
+	display: block;
+	margin:15px auto;
+
+	
+
+}
+#section-contact form input {
+	position: relative;   						/*  ie8   */
+	behavior: url(../js/pie.htc);				/*  ie8   */
+	display: block;
+	height:55px;
+	border: 1px solid #CCCCCC;				/*  ie8   */
+	border:1px solid rgba(0, 0, 0, 0.2);
+	outline: none;
+	width:482px;
+	border-radius:10px;
+	padding-left:15px;
+	font-size: 1.2em;
+	
+	
+}
+#section-contact form ::-webkit-input-placeholder {
+	color:#BABFC3;
+	
+}
+#section-contact form input:focus {
+	border:1px solid black;
+}
+#section-contact form  textarea{
+
+position: relative;   						/*  ie8   */
+height:240px;
+display: block;
+width:482px;
+outline:none;
+border: 1px solid #CCCCCC;					/*  ie8   */
+border:1px solid rgba(0, 0, 0, 0.2);
+border-radius:10px;
+position: relative;   						/*  ie8   */
+behavior: url(../js/pie.htc);				/*  ie8   */
+padding:0;
+margin:0;
+font-size: 1.5em;
+padding-left:15px;
+padding-top:15px;
+	
+}
+
+#section-contact form  textarea:focus {
+	border:1px solid black;
+}
+#section-contact form button {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	padding:17px 20px;
+	border-radius:10px;
+	background:#4586FF;
+	color:white;
+	border:none;
+}
+
+/* start of  footer  */
+footer {
+	width:100%;
+	height:400px;
+	border-bottom: 1px solid red;
+	overflow: hidden;
+	background:rgba(0, 0, 0, 0.8);
+	filter:progid:DXImageTransform.Microsoft.gradient
+	(startColorstr=#cf000000,endColorstr=#cf000000); /*IE8支持*/
+	padding-top:80px;
+	color:white;
+	text-align: left;
+	
+}
+footer .features .main{
+	width:100%;
+	height:230px;
+	overflow: hidden;
+}
+footer .features .main .right span {
+	position: relative;				/*IE8支持*/
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	behavior: url(../js/pie.htc);	/*IE8支持*/
+	background:#313C3F;
+	display: block;
+	color:#6A7275;					/*IE8 */
+	color:rgba(255, 255, 255, 0.3);
+	float: right;
+	text-align: center;
+	line-height: 60px;
+	font-size: 1.5em;
+
+}
+footer .features .main .right span:hover{
+	color:white;
+	cursor: pointer;
+	transition: 0.3s all ease;
+}
+footer .features .main .right span + span {
+	margin-left:15px;
+}
+footer .features .main  h4{
+	float: left;
+	font-size: 1.1em;
+	
+	margin-bottom:15px;
+	text-transform: uppercase;
+	color:#C4C4C4;					/* ie8 */
+	color:rgba(255, 255, 255, 0.8);
+	width:100%;
+}
+footer .features .main  h5{
+	color:#6A7275;					/*IE8 */
+	color:rgba(255, 255, 255, 0.3);
+	font-size: 1em;
+	margin:15px 0;
+	float:left;
+	width:100%;
+}
+footer .features .main  h5:hover{
+	cursor: pointer;
+	color:#4586FF;
+	transition: 0.3s all ease;
+}
+footer .features .bottom {
+   
+	margin:40px auto auto 15px;
+	color:#6A7275;					/*IE8 */
+	color:rgba(255, 255, 255, 0.3);
+	font-size: 1em;
+}
+
+/* end of  footer  */
