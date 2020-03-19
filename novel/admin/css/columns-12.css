@@ -1,0 +1,70 @@
+ /*
+   如果要添加左右的外边距、边框、内边距，请在本元素下面的直接子元素上添加。例如：.col_6 > * {margin:10px;}。
+   可以把应用于本类的元素当作显式的宽度，也就是内容的宽度，直接在这上面添加左右的空隙会超过父元素的大
+   小，结果出乎你的意料之外。
+
+ */
+
+
+.row {                     
+    width:100%;                  
+    margin:0;
+    padding:0;;
+    height: auto;
+    overflow: auto;           				   /*    清除浮动  超出父元素的边界会自动添加滚动条 */
+}
+.col_1 {
+    float:left;
+    width:8.333%;
+     
+}
+.col_2 {
+    float:left;
+    width:16.666%;
+   
+}
+.col_3 {
+    float:left;
+    width:25%;
+   
+}
+.col_4 {
+    float:left;
+    width:33.333%;
+     
+}
+.col_5 {
+    float:left;
+    width:41.666%;
+     
+}
+.col_6 {
+    float:left;
+    width:50%;  
+}
+.col_7 {
+    float:left;
+    width:58.333%;
+   
+}
+.col_8 {
+    float:left;
+    width:66.666%;
+   
+}
+.col_9 {
+    float:left;
+    width:75%;
+      
+}
+.col_10 {
+    float:left;
+    width:83.333%;
+     
+}
+.col_11 {
+    float:left;
+    width:91.666%;
+   
+}
+

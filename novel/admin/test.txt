@@ -1,0 +1,1 @@
+SELECT * FROM xs_category where pId='1' limit 0,5
